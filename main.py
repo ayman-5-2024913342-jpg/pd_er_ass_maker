@@ -10,7 +10,7 @@ from pygments import lexers, lex
 from groq import Groq, RateLimitError # Added RateLimitError import
 
 # --- Configuration ---
-GROQ_API_KEY = "api" 
+GROQ_API_KEY = "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" 
 REPO_URL = "https://github.com/ayman-5-2024913342-jpg/Ass.git"
 # Switch to the 8b model for higher token limits
 MODEL_NAME = "llama-3.1-8b-instant" 
