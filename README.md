@@ -1,6 +1,6 @@
-# 🚀 Fortran Auto-Report Generator
+# 🚀 Pd er assignment Generator
 
-An intelligent automation pipeline that clones Fortran repositories, compiles code, automatically generates missing input data using AI, and compiles everything into a professional Microsoft Word report.
+An intelligent automation pipeline that clones Fortran repositories, compiles code, automatically generates missing input data using AI, and compiles everything into a Microsoft Word file.
 
 ## 🌟 Key Features
 
