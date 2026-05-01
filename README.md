@@ -21,12 +21,23 @@ An intelligent automation pipeline that clones Fortran repositories, compiles co
 * **GFortran**: 
     * **Windows**: Install [MinGW-w64](https://www.mingw-w64.org/) (ensure `gfortran` is in your PATH).
     * **Mac**: Run `brew install gcc` in Terminal.
-* **Git**: [Download here](https://git-scm.com/).
+* **Git**: [Download here](https://git-scm.com/). (ensure `git` is in your PATH).
 
 ### 2. Python Libraries
 Open your terminal or command prompt and run:
 ```bash
 pip install GitPython python-docx pygments groq
 ```
-###Note
-This readme is ai generated and too lazy to verify it let alone write my own, lemme know if you have any issues
+
+### 3. Verify the requirements
+Open terminal or command prompt and verify:
+* **Python**: `python3 --vesrion`.
+* **GFortran**: `gfortran --version`.
+* **Git**: `git --version`.
+
+### 4. Running:
+Open main.py and change REPO_URL in line 15 with your own github repo.
+The groq api key is for testing purposes only so you may want to create your api key from [groq_api](https://console.groq.com/)
+
+## Note
+This readme is mostly ai generated and im too lazy to verify it let alone write my own, lemme know if you have any issues
