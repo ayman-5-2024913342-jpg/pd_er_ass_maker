@@ -14,12 +14,19 @@ An intelligent automation pipeline that clones Fortran repositories, compiles co
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ System Requirements
 
-### System Dependencies
-* **gfortran**: Required to compile the Fortran source files.
-* **Git**: Required for repository cloning.
+### 1. External Dependencies
+* **Python**: [Download here](https://www.python.org/). **(IMPORTANT: Check the box "Add Python to PATH" during installation)**.
+* **GFortran**: 
+    * **Windows**: Install [MinGW-w64](https://www.mingw-w64.org/) (ensure `gfortran` is in your PATH).
+    * **Mac**: Run `brew install gcc` in Terminal.
+* **Git**: [Download here](https://git-scm.com/).
 
-### Python Libraries
+### 2. Python Libraries
+Open your terminal or command prompt and run:
 ```bash
 pip install GitPython python-docx pygments groq
+```
+###Note
+This readme is ai generated and too lazy to verify it let alone write my own, lemme know if you have any issues
